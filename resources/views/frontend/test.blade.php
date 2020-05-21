@@ -1,10 +1,3 @@
-<!-- Links Logo
-Mitte Suchfunktion
-Rechts Logout
--->
-
-
-
 <header class="sticky-top bg-info">
 <div class="container">
 

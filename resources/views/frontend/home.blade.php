@@ -1,5 +1,3 @@
-
-
 @extends('frontend/layouts/app')
 
 @section('content')
@@ -18,7 +16,7 @@
       <div class="card-body">
         <h5 class="card-title text-secondary">Lion King</h5>
         <p class="card-text text-info">Show Description <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sequi maiores a suscipit reiciendis mollitia voluptate culpa</p>
-        <a href="#" class="btn btn-info ">Remember</a>
+        <a href="#" class="btn btn-info ">Remember</a><a href="#" class="btn btn-info ">Message Friend</a>
       </div>
     </div>
   </div>

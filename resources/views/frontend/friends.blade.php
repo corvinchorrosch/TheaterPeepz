@@ -1,10 +1,3 @@
-<!-- Überschrift Freunde
-Freunde suchen funktion (Nach Mail oder Login Name) 
-Freunde Hinzufügen Button
-ul von hinzugefügten Freunden
-Paginate
--->
-
 @extends('frontend/layouts/app')
 
 @section('content')
