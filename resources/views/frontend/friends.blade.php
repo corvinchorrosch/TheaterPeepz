@@ -24,18 +24,18 @@
   <div class="container d-flex justify-content-center">
 <div class="card" style="width: 18rem;">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio <button>x</button></li> 
-    <li class="list-group-item">Dapibus ac facilisis in <button>x</button></li> 
-    <li class="list-group-item">Vestibulum at eros <button>x</button></li> 
-    <li class="list-group-item">Cras justo odio <button>x</button></li> 
-    <li class="list-group-item">Dapibus ac facilisis in <button>x</button></li> 
-    <li class="list-group-item">Vestibulum at eros <button>x</button></li> 
-    <li class="list-group-item">Cras justo odio <button>x</button></li> 
-    <li class="list-group-item">Dapibus ac facilisis in <button>x</button></li> 
-    <li class="list-group-item">Vestibulum at eros <button>x</button></li>     
-    <li class="list-group-item">Cras justo odio <button>x</button></li> 
-    <li class="list-group-item">Dapibus ac facilisis in <button>x</button></li> 
-    <li class="list-group-item">Vestibulum at eros <button>x</button></li> 
+  <li class="list-group-item">Cras justo odio <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Dapibus ac facilisis in <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Vestibulum at eros <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Cras justo odio <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Dapibus ac facilisis in <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Vestibulum at eros <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Cras justo odio <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Dapibus ac facilisis in <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Vestibulum at eros <button class="bg-danger text-white rounded-circle">x</button></li>     
+    <li class="list-group-item">Cras justo odio <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Dapibus ac facilisis in <button class="bg-danger text-white rounded-circle">x</button></li> 
+    <li class="list-group-item">Vestibulum at eros <button class="bg-danger text-white rounded-circle">x</button></li> 
   </ul>
 </div>
 </div>
