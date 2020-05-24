@@ -46,3 +46,4 @@ Route::get('profile', function() {
 Route::get('/', function() {
     return view('/frontend/home');
 });
+
