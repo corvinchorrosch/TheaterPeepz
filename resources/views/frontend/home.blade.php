@@ -16,7 +16,7 @@
       <div class="card-body">
         <h5 class="card-title text-secondary">Lion King</h5>
         <p class="card-text text-info">Price: €</p><p class="card-text text-info">Start Time: Uhr </p> 
-        <a href="#" class="btn btn-info ">Remember</a><a href="#" class="btn btn-info ">Message Friend</a>
+        <a href="#" class="btn btn-info mr-5">Remember</a><a href="#" class="btn btn-info ">Message Friend</a>
       </div>
     </div>
   </div>
