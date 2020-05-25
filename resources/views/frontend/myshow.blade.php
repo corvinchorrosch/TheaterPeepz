@@ -21,8 +21,8 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title text-secondary">Lion King</h5>
-        <p class="card-text text-info">Show Description <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sequi maiores a suscipit reiciendis mollitia voluptate culpa</p>
-        <a href="#" class="btn btn-secondary ">Remembered</a>
+        <p class="card-text text-info">Price: ____ €</p><p class="card-text text-info">Start Time: ___ Uhr </p> 
+        <a href="#" class="btn btn-secondary mr-5">Remembered</a><a href="#" class="btn btn-info ">Message Friend</a>
       </div>
     </div>
   </div>

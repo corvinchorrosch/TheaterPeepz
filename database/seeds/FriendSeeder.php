@@ -11,6 +11,6 @@ class FriendSeeder extends Seeder
      */
     public function run()
     {
-        //
+            factory(App\friend::class, 20)->create();
     }
 }
