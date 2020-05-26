@@ -47,3 +47,8 @@ Route::get('/', function() {
     return view('/frontend/home');
 });
 
+Route::get('/api', 'TicketController@index')->name('home');
+
+Route::post('/show', 'TicketController@showShowsByCity')->name('showShowsByCity');
+
+Route::get('/veranstaltung/{ticket}', 'TicketController@show')->name('show');

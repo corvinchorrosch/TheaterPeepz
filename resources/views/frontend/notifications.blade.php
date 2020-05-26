@@ -11,7 +11,8 @@
 <div class="container d-flex justify-content-center pt-5">
 <div class="card" style="width: 18rem;">
 <ul class="list-group list-group-flush">
-  <li class="list-group-item"><a href="">Corvin </a> is interessted in <a href="">Lion King</a><button class="bg-danger text-white">Delete</button></li>
+  <li class="list-group-item"><a href="">Corvin </a> is interested in <a href="">Lion King</a>
+  <button class="bg-danger text-white">Delete</button></li>
   </ul>
 </div>
 </div>

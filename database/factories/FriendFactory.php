@@ -9,7 +9,6 @@ $factory->define(friend::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->safeEmail,
-        'name' => $faker->userName,
         'username' => $faker->userName,
     ];
 });
