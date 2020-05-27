@@ -31,24 +31,18 @@ Route::get('/test', function() {
     return view('/frontend/test');
 });
 
-Route::get('friends', 'FriendController@index')->name('friends.index');
-
-Route::delete('friends/{friend}', 'FriendController@destroy')->name('friends.destroy');
-
 Route::get('notifications', function() {
     return view('/frontend/notifications');
 });
 
-Route::get('profile', function() {
-    return view('/frontend/profile');
-});
+Route::get('friends', 'FriendController@index')->name('friends.index');
 
-Route::get('/', function() {
-    return view('/frontend/home');
-});
+Route::delete('friends/{friend}', 'FriendController@destroy')->name('friends.destroy');
 
-Route::get('/api', 'TicketController@index')->name('home');
+Route::get('/search',  'SearchController@index')->name('search');
+
+Route::get('/', 'TicketController@index')->name('home');
 
 Route::post('/show', 'TicketController@showShowsByCity')->name('showShowsByCity');
 
-Route::get('/veranstaltung/{ticket}', 'TicketController@show')->name('show');
+Route::get(' ', 'TicketController@show')->name('show');

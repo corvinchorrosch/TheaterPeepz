@@ -30,9 +30,9 @@ class TicketController extends Controller
      */
     public function showShowsByCity(Request $request)
     {
-        $response = Http::get($this->url . 'city=' . $request->get('cities'));
+        $response = Http::get($this->url . 'city=' . $request->input('cities'));
         //Wenn "Alle Städte" im Dropdown angegeben werde, redirect
-        if($request->get('cities') == "*") {
+        if($request->input('cities') == "*") {
             return redirect()->route('home');
         } else {
             $allEventsInGermany = $response->json()['_embedded']['events'];
@@ -49,4 +49,5 @@ class TicketController extends Controller
         $event = $response->json()['_embedded']['events'];
         return view('show', compact('event'));
     }
+
 }
