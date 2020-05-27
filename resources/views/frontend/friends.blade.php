@@ -30,7 +30,7 @@
     <form action="{{route('friends.destroy', $friend)}}" method="POST">
       @csrf
       @method('DELETE')
-        <button class="bg-danger text-white rounded-circle" type="submit">x</button>
+      <button class="bg-danger text-white" type="submit">Delete</button>
     </form>
   </li> 
   @endforeach

@@ -10,7 +10,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet"> 
 </head>
 
-<body class="">
+<body class="bg-secondary">
+
     @include('frontend/includes/header')
 
     <div class="content">
