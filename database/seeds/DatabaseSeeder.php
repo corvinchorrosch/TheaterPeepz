@@ -11,7 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(FriendSeeder::class);
-        $this->call(NotificationSeeder::class);
+        $this->call([FriendSeeder::class]);
     }
 }

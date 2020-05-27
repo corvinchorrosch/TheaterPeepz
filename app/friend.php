@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class friend extends Model
+class Friend extends Model
 {
-    //
+    protected $fillable = ['name', 'mail'];
 }

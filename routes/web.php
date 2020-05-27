@@ -31,9 +31,9 @@ Route::get('/test', function() {
     return view('/frontend/test');
 });
 
-Route::get('friends', function() {
-    return view('/frontend/friends');
-});
+Route::get('friends', 'FriendController@index')->name('friends.index');
+
+Route::delete('friends/{friend}', 'FriendController@destroy')->name('friends.destroy');
 
 Route::get('notifications', function() {
     return view('/frontend/notifications');
