@@ -1,18 +1,17 @@
 @extends('frontend/layouts/app')
 
 @section('content')
-
 <!-- Dropdown -->
 <div class="container d-flex justify-content-center mt-3">
 <form method="POST" action="{{route('showShowsByCity')}}">
     @csrf
-    <select name="cities">
+    <select name="cities" class="form-control">
         <option value="*">Show me random shows</option>
         <option value="Hamburg">Show me shows in Hamburg</option>
         <option value="Bremen">Show me shows in Bremen</option>
         <option value="Berlin">Show me shows in Berlin</option>
     </select>
-    <input type="submit" value="Okay" class="btn btn-secondary btn-number">
+    <input type="submit" value="Okay" class="btn bg-info btn-number text-white d-flex justify-content-center">
 </form>
 </div>
 

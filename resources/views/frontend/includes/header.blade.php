@@ -1,12 +1,13 @@
 <header>
     <div class="d-flex justify-content-center bg-secondary">
-            <img src="/img/logo.png" style="width: 20%">
+            <img src="/img/logo.png" style="width: 60%">
        
     </div>
     <div class="bg-info pb-1 pt-1">
         <div class=" bg-info container">
           <div class="col d-flex justify-content-md-center justify-content-around">
-                <div class="input-group d-flex position-relative col">
+
+                <div class="input-group d-flex position-relative">
                     <input name="q" type="text" class="form-control" placeholder="Search for show">
                     <div class="input-group-append">
                         <button type="submit" class="btn btn-secondary btn-number">
