@@ -3,7 +3,7 @@
 @section('content')
 <div class="container d-flex justify-content-center">
   <div>
-  <h3 class="mt-3 item-align-center">Add contact</h3>
+  <h3 class="mt-3 item-align-center text-white">Add contact</h3>
 </div>
 </div>
 
@@ -11,9 +11,9 @@
   <form class="form-inline my-4 my-lg-0" method="GET" action="{{ url('/search') }}">
     @csrf
     <div class="input-group input-group-sm">
-      <input name="q" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search">
+      <input name="q" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Find friend">
       <div class="input-group-append">
-        <button type="submit" class="btn btn-secondary btn-number" href="{{ url('/search') }}">
+        <button type="submit" class="btn btn-info btn-number text-white" href="{{ url('/search') }}">
           Add
         </button>
       </div>

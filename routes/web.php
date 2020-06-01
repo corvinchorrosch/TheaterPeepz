@@ -14,17 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-
-Route::get('login', function() {
-    return view('/auth/login');
-});
-
-Route::get('register', function() {
-    return view('/auth/register');
-});
-
-Route::get('myshow', function() {
-    return view('/frontend/myshow');
+Route::get('agenda', function() {
+    return view('/frontend/agenda');
 });
 
 Route::get('/test', function() {
@@ -39,7 +30,7 @@ Route::get('friends', 'FriendController@index')->name('friends.index');
 
 Route::delete('friends/{friend}', 'FriendController@destroy')->name('friends.destroy');
 
-Route::get('/search',  'SearchController@index')->name('search');
+// Route::get('/search', 'SearchController@index')->name('search');
 
 Route::get('/', 'TicketController@index')->name('home');
 

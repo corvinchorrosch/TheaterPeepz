@@ -1,22 +1,24 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Frontend;
 
-use App\Friend;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Friend;
 
-
-/*/
-class SearchController extends Controller
+/*/class SearchController extends Controller
 {
     public function index()
     {
         $query = request()->input('q');
-        $Show = Friend::where('name', 'LIKE', "%$query%")
+        $products = Friend::where('name', 'LIKE', "%$query%")
+            ->orWhere('description', 'LIKE', "%$query%")
+            ->paginate(8)
             ->appends(request()->query());
 
-        return view('frontend/friends', [
+        return view('frontend/search', [
             'query' => $query,
+            'products' => $products
         ]);
     }
 }

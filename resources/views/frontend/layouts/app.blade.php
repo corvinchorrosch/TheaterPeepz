@@ -11,6 +11,9 @@
 </head>
 
 <body class="bg-secondary">
+    <div class="d-flex justify-content-center">
+            <img src="/img/logo.png" style="width: 50%">
+    </div>
 
     @include('frontend/includes/header')
 
